@@ -1,0 +1,5 @@
+C:/Users/Cukier/Desktop/Menager_Studiów/out/build/debug/CMakeFiles/MenagerStudiow.dir
+C:/Users/Cukier/Desktop/Menager_Studiów/out/build/debug/CMakeFiles/edit_cache.dir
+C:/Users/Cukier/Desktop/Menager_Studiów/out/build/debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Cukier/Desktop/Menager_Studiów/out/build/debug/CMakeFiles/MenagerStudiow_autogen_timestamp_deps.dir
+C:/Users/Cukier/Desktop/Menager_Studiów/out/build/debug/CMakeFiles/MenagerStudiow_autogen.dir

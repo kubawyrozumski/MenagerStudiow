@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Menadżer Studiów</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="addButton">
+    <property name="geometry">
+     <rect><x>20</x><y>20</y><width>75</width><height>23</height></rect>
+    </property>
+    <property name="text"><string>Dodaj</string></property>
+   </widget>
+   <widget class="QPushButton" name="saveButton">
+    <property name="geometry">
+     <rect><x>110</x><y>20</y><width>75</width><height>23</height></rect>
+    </property>
+    <property name="text"><string>Zapisz</string></property>
+   </widget>
+   <widget class="QPushButton" name="loadButton">
+    <property name="geometry">
+     <rect><x>200</x><y>20</y><width>75</width><height>23</height></rect>
+    </property>
+    <property name="text"><string>Wczytaj</string></property>
+   </widget>
+   <widget class="QPushButton" name="usunButton">
+    <property name="geometry">
+     <rect><x>290</x><y>20</y><width>75</width><height>23</height></rect>
+    </property>
+    <property name="text"><string>Usuń</string></property>
+   </widget>
+   <widget class="QPushButton" name="edytujButton">
+    <property name="geometry">
+     <rect><x>380</x><y>20</y><width>75</width><height>23</height></rect>
+    </property>
+    <property name="text"><string>Edytuj</string></property>
+   </widget>
+   <widget class="QLineEdit" name="imieLineEdit">
+    <property name="geometry">
+     <rect><x>20</x><y>60</y><width>150</width><height>23</height></rect>
+    </property>
+    <property name="placeholderText"><string>Imię</string></property>
+   </widget>
+   <widget class="QLineEdit" name="nazwiskoLineEdit">
+    <property name="geometry">
+     <rect><x>180</x><y>60</y><width>150</width><height>23</height></rect>
+    </property>
+    <property name="placeholderText"><string>Nazwisko</string></property>
+   </widget>
+   <widget class="QCheckBox" name="aktywnyCheckBox">
+    <property name="geometry">
+     <rect><x>340</x><y>60</y><width>100</width><height>23</height></rect>
+    </property>
+    <property name="text"><string>Aktywny</string></property>
+   </widget>
+   <widget class="QComboBox" name="trybComboBox">
+    <property name="geometry">
+     <rect><x>20</x><y>100</y><width>150</width><height>23</height></rect>
+    </property>
+    <item><property name="text"><string>Stacjonarne</string></property></item>
+    <item><property name="text"><string>Nie-stacjonarne</string></property></item>
+   </widget>
+   <widget class="QComboBox" name="kierunekComboBox">
+    <property name="geometry">
+     <rect><x>180</x><y>100</y><width>150</width><height>23</height></rect>
+    </property>
+    <item><property name="text"><string>Informatyka</string></property></item>
+    <item><property name="text"><string>Automatyka</string></property></item>
+    <item><property name="text"><string>Elektronika</string></property></item>
+   </widget>
+   <widget class="QListWidget" name="listWidget">
+    <property name="geometry">
+     <rect><x>20</x><y>140</y><width>550</width><height>200</height></rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar"/>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
